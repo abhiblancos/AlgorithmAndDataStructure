@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmAndDataStructure", "AlgorithmAndDataStructure\AlgorithmAndDataStructure.csproj", "{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmAndDataStructure", "AlgorithmAndDataStructure\AlgorithmAndDataStructure.csproj", "{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigO", "BigO\BigO.csproj", "{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
