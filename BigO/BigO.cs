@@ -6,7 +6,7 @@ namespace BigO
 	{
 		static string[] text = { "nemo" };
 
-		static string[] text100 = new string[100];
+		static string[] text100 = new string[100000];
 
 		public static void callSingle()
 		{
@@ -15,7 +15,7 @@ namespace BigO
 
 		public static void call100()
 		{			
-			for(int i =0; i< 100; i++)
+			for(int i =0; i< 100000; i++)
 			{
 				text100[i] = "nemo";
 			}
