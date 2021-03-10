@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmAndDataStructure",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigO", "BigO\BigO.csproj", "{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureArray", "DataStructureArray\DataStructureArray.csproj", "{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructureArray", "DataStructureArray\DataStructureArray.csproj", "{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

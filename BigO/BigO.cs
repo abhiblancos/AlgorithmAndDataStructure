@@ -4,16 +4,16 @@ namespace BigO
 {
 	public static class BigOn
 	{
-		static string[] text = { "nemo" };
+		static readonly string[] text = { "nemo" };
 
-		static string[] text100 = new string[100000];
+		static readonly string[] text100 = new string[100000];
 
-		public static void callSingle()
+		public static void CallSingle()
 		{
 			FindNemo(text);
 		}
 
-		public static void call100()
+		public static void Call100()
 		{			
 			for(int i =0; i< 100000; i++)
 			{
@@ -40,4 +40,5 @@ namespace BigO
 			Console.Write("time took" +  (t1 - t0).ToString());
 		}
 	}
+
 }
