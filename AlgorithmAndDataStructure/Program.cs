@@ -14,7 +14,6 @@ namespace AlgorithmAndDataStructure
 			switch (str)
 			{
 				case "1":
-
 					BigOn.call100();
 					break;
 

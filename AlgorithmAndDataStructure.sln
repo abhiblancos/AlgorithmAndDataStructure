@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmAndDataStructure", "AlgorithmAndDataStructure\AlgorithmAndDataStructure.csproj", "{7BD18E69-D1D8-4B91-80D2-D06ACC6DEA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigO", "BigO\BigO.csproj", "{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigO", "BigO\BigO.csproj", "{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureArray", "DataStructureArray\DataStructureArray.csproj", "{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDADD11D-4224-4BA8-AB78-B7ADBFFD677E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
