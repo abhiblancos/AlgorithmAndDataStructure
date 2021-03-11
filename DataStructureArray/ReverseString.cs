@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DataStructureArray
 {
@@ -20,6 +18,5 @@ namespace DataStructureArray
 			Console.WriteLine(newString);
 			Console.ReadKey();
 		}
-
 	}
 }
