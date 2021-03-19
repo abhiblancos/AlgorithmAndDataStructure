@@ -1,7 +1,7 @@
 ﻿using System;
 using BigO;
 using DataStructureArray;
-
+using DataStructureLinkedList;
 
 namespace AlgorithmAndDataStructure
 {
@@ -21,7 +21,7 @@ namespace AlgorithmAndDataStructure
 		public static void SelectionMethod()
 		{
 			Console.WriteLine("Please select");
-			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array 3=large");
+			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List");
 			Console.Write("Please enter your selection: ");
 			string str = Console.ReadLine();
 			switch (str)
@@ -31,6 +31,10 @@ namespace AlgorithmAndDataStructure
 					break;
 				case "2":
 					DSArray.ChooseArray();
+					break;
+				case "3":
+					LinkedList linkedList = new LinkedList(5);
+					linkedList.LinkListOperation();
 					break;
 			}
 		}

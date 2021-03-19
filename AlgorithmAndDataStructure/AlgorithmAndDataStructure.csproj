@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BigO\BigO.csproj" />
     <ProjectReference Include="..\DataStructureArray\DataStructureArray.csproj" />
+    <ProjectReference Include="..\DataStructureLinkList\DataStructureLinkedList.csproj" />
   </ItemGroup>
 
 </Project>
