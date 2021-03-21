@@ -8,7 +8,7 @@ namespace DataStructureLinkedList
 {
 	public class DoubleNode
 	{
-		int value { get; set; }
+		public int value { get; set; }
 
 		public DoubleNode next { get; set; }
 		public DoubleNode previous { get; set; }
@@ -106,7 +106,17 @@ namespace DataStructureLinkedList
 		}
 		public void PrintList()
 		{
-
+			if (this.head == null)
+			{
+				return;
+			}
+			DoubleNode current = this.head;
+			while (current != null)
+			{
+				Console.Write("-->" + current.value);
+				current = current.next;
+			}
+			Console.ReadLine();
 		}
 
 		public void LinkListOperation()
