@@ -2,6 +2,7 @@
 using BigO;
 using DataStructureArray;
 using DataStructureLinkedList;
+using StackAndQueue;
 
 namespace AlgorithmAndDataStructure
 {
@@ -21,7 +22,7 @@ namespace AlgorithmAndDataStructure
 		public static void SelectionMethod()
 		{
 			Console.WriteLine("Please select");
-			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List");
+			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List \n 4 = Stack");
 			Console.Write("Please enter your selection: ");
 			string str = Console.ReadLine();
 			switch (str)
@@ -35,6 +36,10 @@ namespace AlgorithmAndDataStructure
 				case "3":
 					LinkedList linkedList = new LinkedList(5);
 					linkedList.LinkListOperation();
+					break;
+				case "4":
+					Stack stack = new Stack();
+					stack.StackOperation();
 					break;
 			}
 		}

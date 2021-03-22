@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigO", "BigO\BigO.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructureArray", "DataStructureArray\DataStructureArray.csproj", "{7EAA5CE8-57C0-4FAD-A9DA-80F89074D4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureLinkedList", "DataStructureLinkList\DataStructureLinkedList.csproj", "{0C532633-D3BE-4B70-B208-08D5BB97A0CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructureLinkedList", "DataStructureLinkList\DataStructureLinkedList.csproj", "{0C532633-D3BE-4B70-B208-08D5BB97A0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{37C3316D-0656-4D06-8AB7-D1ACBF518A1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0C532633-D3BE-4B70-B208-08D5BB97A0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C532633-D3BE-4B70-B208-08D5BB97A0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C532633-D3BE-4B70-B208-08D5BB97A0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C3316D-0656-4D06-8AB7-D1ACBF518A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C3316D-0656-4D06-8AB7-D1ACBF518A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C3316D-0656-4D06-8AB7-D1ACBF518A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C3316D-0656-4D06-8AB7-D1ACBF518A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
