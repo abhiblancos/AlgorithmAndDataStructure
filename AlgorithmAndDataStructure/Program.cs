@@ -2,6 +2,7 @@
 using BigO;
 using DataStructureArray;
 using DataStructureLinkedList;
+using Recursion;
 using StackAndQueue;
 
 namespace AlgorithmAndDataStructure
@@ -22,7 +23,7 @@ namespace AlgorithmAndDataStructure
 		public static void SelectionMethod()
 		{
 			Console.WriteLine("Please select");
-			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List \n 4 = Stack");
+			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List \n 4 = Stack \n 7 = Factorial recursion \n 8 = Fibonacci");
 			Console.Write("Please enter your selection: ");
 			string str = Console.ReadLine();
 			switch (str)
@@ -40,6 +41,18 @@ namespace AlgorithmAndDataStructure
 				case "4":
 					Stack stack = new Stack();
 					stack.StackOperation();
+					break;
+				case "7":
+					Factorial fact = new Factorial();
+					fact.FindFactorial();
+					break;
+				case "8":
+					Fibonacci fibonacci = new Fibonacci();
+					fibonacci.FindFibonacci();
+					break;
+				case "9":
+					ReverseString rev = new ReverseString();
+					rev.RevString();
 					break;
 			}
 		}

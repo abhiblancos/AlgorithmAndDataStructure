@@ -48,7 +48,7 @@ namespace Tree
 			}			
 		}
 
-		public Node lookup(int value)
+		public Node Lookup(int value)
 		{
 			if (root == null)
 			{				
@@ -74,6 +74,29 @@ namespace Tree
 			}
 
 			return null;
+		}
+
+		public void Remove(int value)
+		{
+
+			if (this.root == null)
+				return;
+
+			Node currentNode = this.root;
+			Node parentNode = null;
+			while(currentNode.value != value)
+			{
+				parentNode = currentNode;
+				if(currentNode.value < value)
+				{
+					currentNode = currentNode.right;
+				}
+				else if(currentNode.value > value)
+				{
+					currentNode = currentNode.left;
+				}
+			}
+
 		}
 
 	}
