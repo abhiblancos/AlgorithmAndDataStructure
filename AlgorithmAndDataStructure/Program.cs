@@ -3,6 +3,7 @@ using BigO;
 using DataStructureArray;
 using DataStructureLinkedList;
 using Recursion;
+using Sorting;
 using StackAndQueue;
 
 namespace AlgorithmAndDataStructure
@@ -53,6 +54,10 @@ namespace AlgorithmAndDataStructure
 				case "9":
 					ReverseString rev = new ReverseString();
 					rev.RevString();
+					break;
+				case "10":
+					BubbleSort bubble = new();
+					bubble.BubbleSorting();
 					break;
 			}
 		}

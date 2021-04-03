@@ -10,6 +10,7 @@
     <ProjectReference Include="..\DataStructureArray\DataStructureArray.csproj" />
     <ProjectReference Include="..\DataStructureLinkList\DataStructureLinkedList.csproj" />
     <ProjectReference Include="..\Recursion\Recursion.csproj" />
+    <ProjectReference Include="..\Sorting\Sorting.csproj" />
     <ProjectReference Include="..\StackAndQueue\StackAndQueue.csproj" />
   </ItemGroup>
 
