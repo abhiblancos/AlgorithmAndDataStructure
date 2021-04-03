@@ -59,6 +59,10 @@ namespace AlgorithmAndDataStructure
 					BubbleSort bubble = new();
 					bubble.BubbleSorting();
 					break;
+				case "11":
+					SelectionSort selection = new();
+					selection.SortSelection();
+					break;
 			}
 		}
 
