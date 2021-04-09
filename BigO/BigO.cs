@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace BigO
 {
@@ -14,8 +15,9 @@ namespace BigO
 		}
 
 		public static void Call100()
-		{			
-			for(int i =0; i< 100000; i++)
+		{
+			
+			for (int i =0; i< 100000; i++)
 			{
 				text100[i] = "nemo";
 			}
@@ -25,19 +27,22 @@ namespace BigO
 
 		public static void FindNemo(string[] text)
 		{
-			var t0 = DateTime.UtcNow;
+			Stopwatch stopWatch = new Stopwatch();
 
-			for(var i=0;i< text.Length;i++)
+			stopWatch.Start();
+			for (var i=0;i< text.Length;i++)
 			{
 				if(text[i] == "nemo")
 				{
 					Console.Write("nemo found");
 				}
 			}
-
-			var t1 = DateTime.UtcNow;
-
-			Console.Write("time took" +  (t1 - t0).ToString());
+			stopWatch.Stop();
+			TimeSpan ts = stopWatch.Elapsed;
+			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+		   ts.Hours, ts.Minutes, ts.Seconds,
+		   ts.Milliseconds / 10);
+			Console.WriteLine("RunTime " + elapsedTime);
 		}
 	}
 

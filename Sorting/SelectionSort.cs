@@ -20,16 +20,13 @@ namespace Sorting
 				{
 					if(unSortedArray[lowestValue] > unSortedArray[j])
 					{
-						lowestValue = j;
-						
+						lowestValue = j;						
 					}
 				}				
 					int temp = unSortedArray[i];
 					unSortedArray[i] = unSortedArray[lowestValue];
-					unSortedArray[lowestValue] = temp;
-				
+					unSortedArray[lowestValue] = temp;				
 			}
-
 
 			foreach (var item in unSortedArray)
 			{

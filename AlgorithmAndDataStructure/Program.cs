@@ -24,7 +24,7 @@ namespace AlgorithmAndDataStructure
 		public static void SelectionMethod()
 		{
 			Console.WriteLine("Please select");
-			Console.WriteLine("Data Structure: 1 : Big O(n) \n 2=Array \n3=Linked List \n 4 = Stack \n 7 = Factorial recursion \n 8 = Fibonacci");
+			Console.WriteLine("Data Structure: \n 1 : Big O(n) \n 2 : Array \n 3 : Linked List \n 4 : Stack \n 7 : Factorial recursion \n 8 : Fibonacci \n 9 : ReverseString (Recursion) \n 10 : Bubble Sort \n 11 : Selection Sort \n 12 : Insertion Sort");
 			Console.Write("Please enter your selection: ");
 			string str = Console.ReadLine();
 			switch (str)
@@ -62,6 +62,10 @@ namespace AlgorithmAndDataStructure
 				case "11":
 					SelectionSort selection = new();
 					selection.SortSelection();
+					break;
+				case "12":
+					InsertionSort insertion = new();
+					insertion.Insertion();
 					break;
 			}
 		}
